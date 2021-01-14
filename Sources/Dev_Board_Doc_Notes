@@ -1,0 +1,7 @@
+
+Where to enable the Open drain option for I/O Pins:(pg 130)
+Each of the GPIO ports has four 32-bit memory-mapped control registers (GPIOx_MODER,
+GPIOx_OTYPER, GPIOx_OSPEEDR, GPIOx_PUPDR) to configure up to 16 I/Os. The
+GPIOx_MODER register is used to select the I/O mode (input, output, AF, analog). The
+GPIOx_OTYPER and GPIOx_OSPEEDR registers are used to select the output type (pushpull or open-drain) and speed. 
+The GPIOx_PUPDR register is used to select the pullup/pull-down whatever the I/O direction.
